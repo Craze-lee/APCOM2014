@@ -1,0 +1,169 @@
+body{
+	width:905px;
+	height:1424px;
+	margin:0 auto;
+	border:1px solid black;
+	font-family:arial,sans-serif;
+}
+
+
+
+
+#top{
+	width:877px;
+	margin:0;
+}
+
+
+
+
+#left{
+	width:200px;
+	height:1130px;
+	margin:0;
+	float:left;
+	border:1px solid #626262;
+	font-size:11pt;
+}
+
+#left img{
+	width:120px;
+	height:120px;
+	margin-left:39px;
+	margin-top:20px;
+}
+
+#left p{
+	text-align:center;}
+
+#nav{
+	margin-left:0px;
+	margin-right:0px;
+	border-collapse:collapse;
+	border:2px solid #626262;
+}
+
+#nav TD{
+	width:220px;
+	height:26px;
+	border:2px solid #626262;
+	text-align:center;
+}
+
+#caption{
+	color:white;
+	background-color:#266791;
+	font-weight:bold;
+}
+
+#left a:link{
+	text-decoration:underline;
+	color:black;
+	}
+
+#left a:hover{
+	text-decoration:none;
+	color:black;
+	}
+
+#left a:visited{
+	text-decoration:underline;
+	color:black;
+	}
+
+
+
+
+#right{
+	margin-left:1px;
+	float:left;
+	width:699px;
+	height:1130px;
+	border:1px solid #626262;
+	background-color: #F2F2F2;
+}
+
+
+#right span a:link,a:visited{
+	text-decoration:underline;
+	color:black;
+}
+
+#right span a:hover{
+	text-decoration:none;
+}
+
+#imgs{
+	position:relative;
+	margin-left:5px;
+	width:688px;
+	height:196px;
+	margin-top:5px;
+	margin-bottom:25px;
+}
+
+#imgs img{
+	float:left;
+	margin-right:2px;
+}
+
+.APCOM2014{
+	position:absolute;
+	left:131px;
+	top:0px;
+}
+
+
+
+.P1{
+	margin-left:74px;
+	margin-top:40px;
+	width:550px;
+	text-align:justify;
+	text-justify:inter-ideograph
+}
+
+.P4{
+	margin-left:20px;
+	width:676px;
+	text-align:justify;
+	text-justify:inter-ideograph
+}
+
+.P4 a:link{
+	text-decoration:none;
+	color:black;
+}
+
+.P4 a:hover{
+	text-decoration:none;
+	color:black;
+	}
+
+.P4 a:visited{
+	text-decoration:underline;
+	color:black;
+	}
+
+
+#right table{
+	margin-left:16px;
+}
+
+
+
+#bottom{
+	margin-top:2px;
+	float:left;
+	height:54px;
+	width:905px;
+	background-color:#266791;
+	text-align:center;
+}
+
+#bottom p{
+	margin-top:16px;
+	font-size:8pt;
+	color:white;
+	text-align:center;
+}

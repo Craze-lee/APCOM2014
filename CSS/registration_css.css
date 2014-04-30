@@ -1,0 +1,59 @@
+#reg{
+	margin-left:2px;
+	float:left;
+	width:698px;
+	height:1130px;
+	border:1px solid #626262;
+	background-color: #F2F2F2;
+}
+#reg h1{
+	margin-top:30px;
+	margin-left:25px;
+	color:#2B6FB2;
+}
+
+#reg hr{
+	width:645px;
+}
+
+.wenzi{
+	margin-left: 27px;
+}
+
+.shurukuang{
+	margin-left: 27px;
+	width:220px;
+	height: 20px;
+}
+
+.k{	
+	margin-top: 20px;
+	height: 40px;
+}
+
+.a{
+	height: 40px;
+}
+
+.b{
+	margin-top: 20px;
+}
+
+
+#qiangdu{ 
+	padding-left: 26px;
+	background-color: #F2F2F2;
+}
+
+#weak,#middle,#strong{width: 72px;
+  height: 20px;
+  border: 2px solid #F2F2F2;
+  background: #333333;
+  font: bold 15px ;
+  color: #FFF;
+
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+
+}

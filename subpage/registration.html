@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/top5.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<HEAD>
+	<META charset="utf-8">
+	<META name="viewport" content="width=device-width, initial-scale=1" />
+	<META http-equiv="Content-Type" content="text/html; charst=gb2312" />
+	<META name="keywords" content="" />
+	<TITLE>2014 Asia Pacific Conference on Optics Manufacture</TITLE>
+	<LINK rel=stylesheet type="text/css" href="../CSS/main_css.css"/>
+	<LINK rel=stylesheet type="text/css" href="../CSS/registration_css.css"/>
+	<SCRIPT language="javascript" type="text/javascript"  src="../JS/register.js">
+	</SCRIPT>
+    <LINK rel="stylesheet" type = "text/css"  href="../JS/register.js">
+</HEAD>
+
+<BODY>
+	<DIV id="top">
+		<embed type="application/x-shockwave-flash" src="../images/logo.swf" height="233px" width="905px" wmode="opaque"
+				style="margin-top:1px">
+		</embed>
+	</DIV>
+	<!--导航+校徽-->
+	<DIV id="left">
+			<TABLE id="nav" cellSpacing=0 cellPadding=0>
+				<TR>
+					<TD id="caption">APCOM2014</TD>
+				</TR>
+				<TR>
+					<TD><A href="../index.html">Home</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="registration.html">Registration</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Speech</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Keynotes</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Venue</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Conference Programs</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Call For Papers</A></TD>
+				</TR>
+				<TR>
+					<TD id="caption">Organizaton</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Committees</A></TD>
+				</TR>
+				<TR>
+					<TD id="caption">Information</TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Traffic Information</A></TD>
+				</TR>
+				<TR>
+					<TD><A href="###">Hotel Information</A></TD>
+				</TR>
+			</TABLE>
+				
+		<IMG src="../images/GDUT.JPG"/>
+			<P><A href="http://www.gdut.edu.cn/" target="_blank">Guangdong University of Technology</A></P>
+			
+		<IMG src="../images/The_Hong_Kong_Polytechnic_University.jpg"/>
+			<P><A href="http://www.polyu.edu.hk/cpa/polyu/index.php" target="_blank">The Hong Kong Polytechnic University</A></P>			
+	</DIV>
+
+	<DIV id="reg">
+		<H1>Registration</H1>
+		<HR align="center"/>
+		<FORM id="form" method="post" action="../models/register.php">
+			<!--用户名-->
+			<DIV class="a">
+				<FONT class="wenzi"><label for="username">Username:</label></FONT><BR/>
+				<input class="shurukuang" type="text" name="username" id="name" maxlength="25" onfocus="m_prompt()"  onblur="check_name(this)">
+				 <label id="m_name" class="tips"  font-color="red">&nbsp;</label>
+			</DIV>
+			<!--密码-->
+			<DIV class="b">
+				<FONT class="wenzi"><label for="pwd">Password:</label></FONT><BR/>
+				<input class="shurukuang" type="password" name="password1"  id="password" maxlength="25" onfocus="p_prompt()" onblur="check_password(this)"  onchange ="sh(ow_pwthis)"/>
+				<label id="pw" class="tips" font-color="red">&nbsp;</label><br>
+                <div id="qiangdu"><div id="weak">Weak</div><div id="middle">Middle</div><div id="strong">Strong</div></div><BR/>
+			</DIV>
+			<!--确认密码-->
+			<DIV class="k">
+				<FONT class="wenzi"><label for="cpwd">Confirm password:</label></FONT><BR/>
+				<input class="shurukuang" type="password" name="c_password1"  id="c_password1" onfocus="cp_prompt()" onblur="check_pwagain(this)"/>
+				<label id="cpw" class="tips" font-color="red">&nbsp;</label>
+			</DIV>
+			<!--称呼-->
+			<DIV class="k">
+				<FONT class="wenzi">Tittle:</FONT><BR/>
+				<input style="margin-left:27px" type="radio" name="tittle" value="Mr." />Mr.
+				<input type="radio" name="tittle" value="Ms." />Ms.
+				<input type="radio" name="tittle" value="Dr." />Dr.
+				<input type="radio" name="tittle" value="Prof." />Prof.
+			</DIV>
+			<!--真实姓名-->
+			<DIV class="k">
+				<FONT class="wenzi"><label for="realname">Real name:</label></FONT><BR/>
+				<input class="shurukuang" type="text" name="realname" id="realname"> 
+			</DIV>
+			<!--电话-->
+			<DIV class="k">
+				<FONT class="wenzi"><label for="phone">Phone:</label></FONT><BR/>
+				<input class="shurukuang" type="text" name="phone" id="phone"> 
+				<label class="tips" font-color="red">&nbsp;</label>
+			</DIV>
+			<!--邮箱-->
+			<DIV class="k">
+				<FONT class="wenzi"><label for="email">Email:</label></FONT><BR/>
+				<input class="shurukuang" name="email" id="email" class ="k" type="text" size="26" maxlength="25" onblur="check_email(this)"/>
+				<label id="F_email" class="tips"  font-color="red">&nbsp;</label>
+			</DIV>
+			<!--住址-->
+			<DIV class="k">
+				<FONT class="wenzi"><label for="address">Address:</label></FONT><BR/>
+				<input class="shurukuang" type="text" name="address" id="address"> 
+			</DIV>
+			<!--提交-->
+			<DIV class="k">
+				<input style="margin-left:250px;margin-top:25px" name="submit" type="submit" id="login" value="CREATE ACCOUNT">
+			</DIV>
+		</FORM>
+		
+	</DIV>
+
+	<DIV id="bottom">
+		<P><B>Copyright 2014 APCOM2014 | All Rights Reserved</B><BR/>
+						E-Mail:apcom2014@gdut.edu.cn
+		</P>
+	</DIV>
+	
+</BODY>
+</HTML>
